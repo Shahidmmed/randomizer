@@ -10,6 +10,9 @@
     left: 10px;
     color: white;
     font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     &:nth-child(2),
     &:nth-child(3) {
@@ -30,5 +33,6 @@
 @media (min-width: 1280px) {
   canvas {
     width: 1250px !important;
+    max-height: 555px !important;
   }
 }
